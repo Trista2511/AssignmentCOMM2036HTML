@@ -1,0 +1,70 @@
+h1 { font-size: 40px; 
+    color: red;
+}
+    /* this is a comment */
+
+p { font-size: 20px;
+    color: rebeccapurple;
+}
+
+/* 
+ul, ol { font-size: 18px; 
+color: grey;
+}
+*/ 
+
+p[align="left"]
+{ color: turquoise
+}
+
+p[align="right"]
+{ color:turquoise;
+}
+
+.standout, .bold_text, .next_para
+{ 
+    color: palevioletred
+}
+
+h2.standout, .hkbu_info
+{  
+    color: burlywood
+}
+
+.hkbu_info
+{ 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ; 
+    font-weight: bolder;
+    font-size: 150%;
+    font-style: oblique;
+    text-decoration: none;
+    text-align: justify;
+    line-height:1.2em;
+    letter-spacing: 0.05cm;
+    word-spacing:1cm;
+    text-indent:2em;
+    background: rgb(251, 210, 221, 0.3);
+
+}
+p.standout
+{ 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient( navy, royalblue);
+}
+
+.next_para
+{ 
+    font-family: 'Times New Roman', Times, serif;
+    background: radial-gradient(royalblue, navy);
+}
+
+.picture1
+{ border-radius: 50%;}
+
+.transparent
+{opacity: 0.5;}
+
+.greyscale
+{
+    filter: grayscale(80%);
+}
